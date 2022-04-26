@@ -11,7 +11,7 @@ class OnboardPageFirst extends StatelessWidget {
 
     return Stack(
       children: [
-        Container(
+        SizedBox(
           height: size.height,
           child: Image.asset(
             'assets/images/background.png',
@@ -59,7 +59,7 @@ class OnboardPageFirst extends StatelessWidget {
                   ),
                 ),
                 SizedBox(
-                  height: 140.h,
+                  height: 100.h,
                 ),
               ],
             ),

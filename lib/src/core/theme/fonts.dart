@@ -20,6 +20,12 @@ final h2Bold = TextStyle(
   fontWeight: FontWeight.bold,
 );
 
+final normalText = TextStyle(
+  fontFamily: 'Effra',
+  color: Colors.white,
+  fontSize: 18.sp,
+);
+
 final h3 = TextStyle(
   fontFamily: 'Effra',
   color: Colors.white,
